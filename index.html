@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Temperatura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li><a href="#" data-page="home">Home</a></li>
+                <li><a href="#" data-page="current">Temperatura Atual</a></li>
+                <li><a href="#" data-page="forecast">Previsão</a></li>
+                <li><a href="#" data-page="chart">Gráfico</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="content">
+        <div id="home" class="page">
+            <h1>Bem-vindo ao Site de Temperatura</h1>
+            <p>Use o menu acima para navegar.</p>
+        </div>
+        <div id="current" class="page">
+            <h1>Temperatura Atual</h1>
+            <p>Exibindo a temperatura atual...</p>
+        </div>
+        <div id="forecast" class="page">
+            <h1>Previsão do Tempo</h1>
+            <p>Exibindo a previsão do tempo...</p>
+        </div>
+        <div id="chart" class="page">
+            <h1>Gráfico de Temperatura</h1>
+            <p>Exibindo o gráfico de temperatura...</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
